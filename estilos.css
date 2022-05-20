@@ -1,0 +1,105 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*,*:before,*:after {
+    box-sizing: inherit;}
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+body {
+    margin: 0 auto;
+    padding-top: 0;
+    background-color: black;
+}
+h2 {
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: underline;
+}
+p {font-size: 2rem; }
+h3{font-size: 1.8rem;}
+ol,ul{ font-size: 1.8rem;}
+
+/* _________BANNER______________________ */
+.contenedorBanner{
+    background-image: url(https://img.freepik.com/foto-gratis/diversa-comida-mexicana-fondo-oscuro_23-2147740705.jpg?w=1380);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.sombraImagen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 70%);
+}
+h1 {
+    margin-top: 0;
+    text-align: center;
+    padding-top: 4%;
+    font-family: 'Lobster', cursive;
+    font-size: 8rem;
+    text-decoration: underline;    
+    color: wheat;
+}
+
+/* _________NAVEGACION___________ */
+nav {
+    padding: 1rem 0;
+    background-color:   #caa6c5 ;
+    margin-bottom: 6rem;
+}
+nav a {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    padding-left: 20%;
+    text-decoration: none;
+    color: black;
+}
+/* ___CONTENIDO________ */
+.contenedorContenido {
+    width: 90%;
+    background-color:  #8fdcd9 ;    
+    padding-top: 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.platos {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 3rem;
+    margin-top: 0;
+    padding-bottom: 5rem;
+
+}
+.platos img {
+    width: 300px;
+    height: 300px;
+    border-radius: 0.5rem;
+    margin-left: 50px;
+    border: 2px solid black;
+
+}
+.platos p,li{
+    
+    margin-right: 4rem;
+}
+.centrarGrid{
+    display: grid;
+    
+    align-items: center;
+}
+/* ABOUT US */
+.contenedorAbout p{
+    text-align:left;
+    margin:2rem 5rem;   
+    line-height: 1.5;
+    font-style: italic;
+}
+.contenedorAbout{
+    padding: 5rem
+}
